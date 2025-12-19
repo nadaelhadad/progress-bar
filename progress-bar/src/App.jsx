@@ -4,7 +4,7 @@ import './App.css'
 
 function App() {
   const [percentage, setpercentage] = useState(10)
-
+/* comment */
   const handleChange=(e=>{
     let value=parseInt(e.target.value)
     setpercentage(value)
