@@ -12,7 +12,6 @@ function App() {
   return (
     <>
       <div className='progress-bar'>
-      
         <div className='progress-filled' style={{width:{percentage}}}>{percentage}%</div>
       </div>
       <div className="input-container">
